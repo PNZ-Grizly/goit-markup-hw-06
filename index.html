@@ -68,7 +68,9 @@
       <section class="hero" id="hero">
         <div class="hero-container container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="btn" type="button" data-modal-open>Order Service</button>
+        <button class="btn" type="button" backdrop is-open>
+          Order Service
+        </button>
         </div>
       </section>
 
@@ -622,10 +624,12 @@
     </footer>
 
 <!--Section Modal Window-->
- <div class="backdrop is-open hiden">
+
+ <!--Section Modal Window-->
+ <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="click-button" type="button">
-          <svg class="icon-click" width="8" height="8">
+        <button class="click-button-close" type="button" data-modal-close>
+          <svg class="icon-click-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -715,6 +719,11 @@
         </form>
       </div>
     </div>
+
+
+    <!--Section Mobile menu-->
+
+
 
   </body>
 </html>
