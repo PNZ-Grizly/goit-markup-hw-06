@@ -702,12 +702,6 @@ button {
   background-color: #2e2f42;
 }
 
-@media screen and (min-width: 768px) {
-  .page-footer {
-    padding: 96px 108px;
-  }
-}
-
 .section-footer {
   display: flex;
   flex-direction: column;
